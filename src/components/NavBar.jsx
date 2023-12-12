@@ -21,7 +21,7 @@ const NavBar = () => {
             <div onClick={handleNav} className="block md:hidden">
                 {!nav ? <AiOutlineMenu size={20} /> : <AiOutlineClose size={20} />}
             </div>
-            <div className={`md:hidden fixed left-0 top-0 w-[60%] h-full border-r border-gray-900 bg-[#000300] transition-all duration-500 ease-in-out transform ${nav ? 'translate-x-0' : '-translate-x-full'}`}>
+            <div className={`md:hidden fixed left-0 top-0 w-[60%] h-full border-r border-gray-900 bg-[#000300] transition-all duration-500 ease-in-out transform ${nav ? 'translate-x-0' : '-translate-x-full '}`}>
                 <h1 className="w-full text-3xl font-bold text-green-500 m-4">REACT.</h1>
                 <ul className="uppercase p-4">
                     <li className="p-4 border-b border-gray-600">Home</li>
